@@ -25,7 +25,7 @@ function start()
 		player_mgr.add(player);
 		player_mgr.add(player2);
 		setInterval(redraw, 200);
-		//drawGrid();
+		drawGrid();
 		map.show();
 		//proto.connect();
 	}); 
